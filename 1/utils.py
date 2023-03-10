@@ -1,5 +1,5 @@
 def decimal_places(accuracy):
-    decimal_places = abs(len(str(accuracy))) - 1
+    decimal_places = len(str(accuracy)) - 1
 
     return decimal_places
 
